@@ -1,9 +1,156 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "projects": [
+    {
+      "name": "Teste Projeto 1",
+      "budget": "100.00",
+      "category": {
+        "id": "8",
+        "name": "Expedição"
+      },
+      "cost": 10,
+      "services": [
+        {
+          "name": "t1",
+          "cost": "10",
+          "description": "testando",
+          "id": "dd3bd8b3-1fc2-43b6-994d-bd00df6be2fb"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Teste Projeto 2",
+      "budget": "200.00",
+      "category": {
+        "id": "2",
+        "name": "Administração"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Teste projeto 3",
+      "budget": "300.00",
+      "category": {
+        "id": "3",
+        "name": "Manutenção"
+      },
+      "cost": 50,
+      "services": [
+        {
+          "name": "t3",
+          "cost": "50",
+          "description": "Testando",
+          "id": "76492b86-2ae2-4a25-a2b4-2cdbe977a3b6"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Teste projeto 4",
+      "budget": "400.00",
+      "category": {
+        "id": "1",
+        "name": "Produção"
+      },
+      "cost": 400,
+      "services": [
+        {
+          "name": "t4",
+          "cost": "2",
+          "description": "testando",
+          "id": "3a292328-acee-4514-8db1-6410ab82c660"
+        },
+        {
+          "name": "t4",
+          "cost": "2",
+          "description": "testando",
+          "id": "8e763f03-360d-4d72-a62e-073c49acda72"
+        },
+        {
+          "name": "t4",
+          "cost": "96",
+          "description": "testando",
+          "id": "59a3f300-d90e-4dea-bd95-f970fbb42e72"
+        },
+        {
+          "name": "t4",
+          "cost": "150.00",
+          "description": "testando",
+          "id": "abfd081f-8cc0-47fc-950e-6f3bb8a7df07"
+        },
+        {
+          "name": "t4",
+          "cost": "150.00",
+          "description": "testando",
+          "id": "039399b8-aed7-45b2-af79-7895ced7346c"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Teste projeto 5",
+      "budget": "500.00",
+      "category": {
+        "id": "5",
+        "name": "Qualidade"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Teste projeto 6",
+      "budget": "600",
+      "category": {
+        "id": "4",
+        "name": "Vendas"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "t6",
+          "cost": "500",
+          "description": "testando",
+          "id": "e40bf43e-5143-4129-bfee-59b7d1801a16"
+        }
+      ],
+      "id": 6
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Produção"
+    },
+    {
+      "id": 2,
+      "name": "Administração"
+    },
+    {
+      "id": 3,
+      "name": "Manutenção"
+    },
+    {
+      "id": 4,
+      "name": "Vendas"
+    },
+    {
+      "id": 5,
+      "name": "Qualidade"
+    },
+    {
+      "id": 6,
+      "name": "Laboratório"
+    },
+    {
+      "id": 7,
+      "name": "Almoxarifado"
+    },
+    {
+      "id": 8,
+      "name": "Expedição"
+    }
+  ]
 }
